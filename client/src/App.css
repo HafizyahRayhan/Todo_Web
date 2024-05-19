@@ -1,0 +1,85 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.input {
+  margin: 5px;
+  padding: 10px;
+  width: calc(100% - 22px);
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #222;
+  color: #e0e0e0;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e88e5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1565c0;
+}
+
+.delete-button {
+  background-color: #e53935;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-card {
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+  background-color: #1f1f1f;
+  text-align: left;
+}
+
+.todo-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.todo-card p {
+  margin: 0 0 10px;
+  color: #bbbbbb;
+}
+
+.todo-card .button {
+  margin-right: 5px;
+}
